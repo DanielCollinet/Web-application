@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Dashboard</h1>
+
+    <h3 id="welcomeUser">
+        Welcome
+    </h3>
+
+    <form id="profileForm">
+
+        <label>Username</label>
+        <input
+            type="text"
+            id="username"
+            required
+        >
+
+        <label>Email</label>
+        <input
+            type="email"
+            id="email"
+            required
+        >
+
+        <label>Phone Number</label>
+        <input
+            type="text"
+            id="phone"
+            required
+        >
+
+        <label>Date Of Birth</label>
+        <input
+            type="date"
+            id="dob"
+            required
+        >
+
+        <label>New Password</label>
+        <input
+            type="password"
+            id="newPassword"
+            placeholder="Leave blank to keep current password"
+        >
+
+        <button type="submit">
+            Save Changes
+        </button>
+
+    </form>
+
+    <br>
+
+    <button id="logoutBtn">
+        Logout
+    </button>
+
+    <p id="message"></p>
+
+</div>
+
+<script src="js/profile.js"></script>
+
+</body>
+</html>
