@@ -26,7 +26,7 @@ registerForm.addEventListener(
 
             const response =
             await fetch(
-                "http://localhost:3000/api/register",
+                "https://web-application-backend-7gd4.onrender.com/api/register",
                 {
                     method: "POST",
                     headers: {

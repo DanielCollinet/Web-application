@@ -20,7 +20,7 @@ async function loadProfile() {
 
         const response =
             await fetch(
-                "http://localhost:3000/api/profile",
+                "https://web-application-backend-7gd4.onrender.com/api/profile",
                 {
                     headers: {
                         Authorization:
@@ -94,7 +94,7 @@ profileForm.addEventListener(
 
             const response =
                 await fetch(
-                    "http://localhost:3000/api/profile",
+                    "https://web-application-backend-7gd4.onrender.com/api/profile",
                     {
                         method: "PUT",
 
